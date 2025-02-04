@@ -1,0 +1,103 @@
+<div class="search-container">
+    <h4>Search</h4>
+    
+    <div class="input-group mb-2">
+      <span class="input-group-text">
+        <i class="bi bi-search"></i>
+      </span>
+      <input 
+        type="text" 
+        class="form-control" 
+        placeholder="Search" 
+        [(ngModel)]="searchTerm"
+      >
+    </div>
+
+    <div class="mb-2">
+      <span class="me-2">Applied Filters:</span>
+      <span class="filter-badge">
+        e-Voucher
+        <i class="bi bi-x-circle ms-1" (click)="removeFilter('e-Voucher')"></i>
+      </span>
+      <span class="filter-badge">
+        Clear Filters
+        <i class="bi bi-x-circle ms-1" (click)="clearAllFilters()"></i>
+      </span>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Categories</h5>
+            <div class="list-group list-group-flush">
+              <div class="category-item" *ngFor="let category of categories">
+                <span>{{ category.name }}</span>
+                <i class="bi" [class.bi-check-circle-fill]="category.selected" [class.bi-circle]="!category.selected"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="sort-pagination-holder">
+            <h5 class="m-0">{{totalItems}} results found</h5>
+
+            <div class="pagination-wrapper">
+                <div class="d-flex align-items-center mb-3">
+                    <label for="itemsPerPage" class="me-2">Items per page:</label>
+                    <select id="itemsPerPage" class="form-select w-auto" [(ngModel)]="itemsPerPage" (change)="updatePagination()">
+                        <option *ngFor="let option of perPageOptions" [value]="option">{{ option }}</option>
+                    </select>
+                </div>
+                <pagination 
+                    class="mt-0"
+                    [totalItems]="totalItems" 
+                    [itemsPerPage]="itemsPerPage" 
+                    [(ngModel)]="currentPage" 
+                    (pageChanged)="onPageChange($event)">
+                </pagination>
+            </div>
+
+            <button class="btn btn-primary sort-btn" (click)="toggleFilterPanel()">Sort</button>
+
+        </div>
+
+        <div class="main-section">
+            <ng-container *ngFor="let rewardData of getPaginatedData()">
+                <app-brand-card [reward]="rewardData"></app-brand-card>
+            </ng-container>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Overlay to prevent background clicks -->
+<div class="overlay" *ngIf="isFilterPanelOpen" (click)="toggleFilterPanel()"></div>
+
+<!-- Filter Panel -->
+<div class="filter-panel" [class.open]="isFilterPanelOpen">
+    <div class="filter-header">
+      <div class="label">Filter By</div>
+      <a (click)="isFilterPanelOpen = false">Reset All</a>
+    </div>
+
+    <hr/>
+  
+    <div class="sort-options">
+      <div class="label">Sort</div>
+      
+      <div class="btn-wrapper">
+        <button class="btn" 
+                [class.btn-selected]="selectedSortOrder === SortOrderEnum.AToZ" 
+                (click)="updateSort(SortOrderEnum.AToZ)">A to Z</button>
+
+        <button class="btn" 
+                [class.btn-selected]="selectedSortOrder === SortOrderEnum.ZToA" 
+                (click)="updateSort(SortOrderEnum.ZToA)">Z to A</button>
+      </div>
+    </div>
+  
+    <button class="btn btn-apply" (click)="applySort()">Apply</button>
+</div>

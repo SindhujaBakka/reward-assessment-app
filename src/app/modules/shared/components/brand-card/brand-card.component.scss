@@ -1,0 +1,29 @@
+.wrapper {
+    width: 13em;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+  
+.gray {
+    color: gray;
+}
+
+.yellow {
+    color: #ffc06e;
+}
+
+.high-demand-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #d3dfe5;
+}
+
+.out-of-demand-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color:  #a6bad0;
+}

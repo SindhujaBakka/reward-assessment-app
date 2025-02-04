@@ -1,0 +1,947 @@
+[
+  {
+    "pk": 1,
+    "name": "Starbucks",
+    "points": 32,
+    "display_img_url": "https://logo.clearbit.com/starbucks.com",
+    "quantity": 34,
+    "low_quantity": 8,
+    "valid_until": "2025-08-06T09:10:07.732282"
+  },
+  {
+    "pk": 2,
+    "name": "McDonald's",
+    "points": 72,
+    "display_img_url": "https://logo.clearbit.com/mcdonald's.com",
+    "quantity": 4,
+    "low_quantity": 6,
+    "valid_until": "2025-10-14T09:10:07.732308"
+  },
+  {
+    "pk": 3,
+    "name": "Domino's Pizza",
+    "points": 63,
+    "display_img_url": "https://logo.clearbit.com/domino'spizza.com",
+    "quantity": 8,
+    "low_quantity": 9,
+    "valid_until": "2025-04-22T09:10:07.732314"
+  },
+  {
+    "pk": 4,
+    "name": "KFC",
+    "points": 49,
+    "display_img_url": "https://logo.clearbit.com/kfc.com",
+    "quantity": 50,
+    "low_quantity": 8,
+    "valid_until": "2025-09-17T09:10:07.732318"
+  },
+  {
+    "pk": 5,
+    "name": "Burger King",
+    "points": 63,
+    "display_img_url": "https://logo.clearbit.com/burgerking.com",
+    "quantity": 2,
+    "low_quantity": 5,
+    "valid_until": "2025-04-19T09:10:07.732322"
+  },
+  {
+    "pk": 6,
+    "name": "Subway",
+    "points": 32,
+    "display_img_url": "https://logo.clearbit.com/subway.com",
+    "quantity": 0,
+    "low_quantity": 9,
+    "valid_until": "2025-06-20T09:10:07.732326"
+  },
+  {
+    "pk": 7,
+    "name": "Dunkin' Donuts",
+    "points": 27,
+    "display_img_url": "https://logo.clearbit.com/dunkin'donuts.com",
+    "quantity": 0,
+    "low_quantity": 5,
+    "valid_until": "2025-12-15T09:10:07.732329"
+  },
+  {
+    "pk": 8,
+    "name": "Taco Bell",
+    "points": 88,
+    "display_img_url": "https://logo.clearbit.com/tacobell.com",
+    "quantity": 17,
+    "low_quantity": 6,
+    "valid_until": "2025-05-20T09:10:07.732333"
+  },
+  {
+    "pk": 9,
+    "name": "Pizza Hut",
+    "points": 88,
+    "display_img_url": "https://logo.clearbit.com/pizzahut.com",
+    "quantity": 34,
+    "low_quantity": 9,
+    "valid_until": "2025-03-21T09:10:07.732338"
+  },
+  {
+    "pk": 10,
+    "name": "Costa Coffee",
+    "points": 54,
+    "display_img_url": "https://logo.clearbit.com/costacoffee.com",
+    "quantity": 49,
+    "low_quantity": 7,
+    "valid_until": "2025-04-16T09:10:07.732342"
+  },
+  {
+    "pk": 11,
+    "name": "Tim Hortons",
+    "points": 44,
+    "display_img_url": "https://logo.clearbit.com/timhortons.com",
+    "quantity": 27,
+    "low_quantity": 9,
+    "valid_until": "2025-11-17T09:10:07.732347"
+  },
+  {
+    "pk": 12,
+    "name": "Wendy's",
+    "points": 18,
+    "display_img_url": "https://logo.clearbit.com/wendy's.com",
+    "quantity": 18,
+    "low_quantity": 9,
+    "valid_until": "2025-09-09T09:10:07.732350"
+  },
+  {
+    "pk": 13,
+    "name": "Papa John's",
+    "points": 59,
+    "display_img_url": "https://logo.clearbit.com/papajohn's.com",
+    "quantity": 41,
+    "low_quantity": 9,
+    "valid_until": "2025-11-10T09:10:07.732355"
+  },
+  {
+    "pk": 14,
+    "name": "Chick-fil-A",
+    "points": 71,
+    "display_img_url": "https://logo.clearbit.com/chick-fil-a.com",
+    "quantity": 47,
+    "low_quantity": 10,
+    "valid_until": "2025-07-29T09:10:07.732358"
+  },
+  {
+    "pk": 15,
+    "name": "Arby's",
+    "points": 87,
+    "display_img_url": "https://logo.clearbit.com/arby's.com",
+    "quantity": 15,
+    "low_quantity": 10,
+    "valid_until": "2025-12-20T09:10:07.732361"
+  },
+  {
+    "pk": 16,
+    "name": "Chipotle",
+    "points": 15,
+    "display_img_url": "https://logo.clearbit.com/chipotle.com",
+    "quantity": 36,
+    "low_quantity": 7,
+    "valid_until": "2025-09-02T09:10:07.732364"
+  },
+  {
+    "pk": 17,
+    "name": "Five Guys",
+    "points": 20,
+    "display_img_url": "https://logo.clearbit.com/fiveguys.com",
+    "quantity": 15,
+    "low_quantity": 8,
+    "valid_until": "2025-12-08T09:10:07.732368"
+  },
+  {
+    "pk": 18,
+    "name": "Krispy Kreme",
+    "points": 60,
+    "display_img_url": "https://logo.clearbit.com/krispykreme.com",
+    "quantity": 29,
+    "low_quantity": 6,
+    "valid_until": "2025-07-02T09:10:07.732371"
+  },
+  {
+    "pk": 19,
+    "name": "Jollibee",
+    "points": 74,
+    "display_img_url": "https://logo.clearbit.com/jollibee.com",
+    "quantity": 31,
+    "low_quantity": 8,
+    "valid_until": "2025-08-17T09:10:07.732375"
+  },
+  {
+    "pk": 20,
+    "name": "Dairy Queen",
+    "points": 11,
+    "display_img_url": "https://logo.clearbit.com/dairyqueen.com",
+    "quantity": 42,
+    "low_quantity": 5,
+    "valid_until": "2025-07-13T09:10:07.732380"
+  },
+  {
+    "pk": 21,
+    "name": "Hard Rock Cafe",
+    "points": 48,
+    "display_img_url": "https://logo.clearbit.com/hardrockcafe.com",
+    "quantity": 45,
+    "low_quantity": 9,
+    "valid_until": "2025-04-17T09:10:07.732386"
+  },
+  {
+    "pk": 22,
+    "name": "Shake Shack",
+    "points": 65,
+    "display_img_url": "https://logo.clearbit.com/shakeshack.com",
+    "quantity": 47,
+    "low_quantity": 8,
+    "valid_until": "2025-04-03T09:10:07.732391"
+  },
+  {
+    "pk": 23,
+    "name": "Panera Bread",
+    "points": 82,
+    "display_img_url": "https://logo.clearbit.com/panerabread.com",
+    "quantity": 40,
+    "low_quantity": 8,
+    "valid_until": "2025-09-09T09:10:07.732397"
+  },
+  {
+    "pk": 24,
+    "name": "Caribou Coffee",
+    "points": 50,
+    "display_img_url": "https://logo.clearbit.com/cariboucoffee.com",
+    "quantity": 50,
+    "low_quantity": 10,
+    "valid_until": "2025-11-09T09:10:07.732402"
+  },
+  {
+    "pk": 25,
+    "name": "Peet's Coffee",
+    "points": 60,
+    "display_img_url": "https://logo.clearbit.com/peet'scoffee.com",
+    "quantity": 47,
+    "low_quantity": 8,
+    "valid_until": "2025-07-14T09:10:07.732405"
+  },
+  {
+    "pk": 26,
+    "name": "7-Eleven",
+    "points": 39,
+    "display_img_url": "https://logo.clearbit.com/7-eleven.com",
+    "quantity": 37,
+    "low_quantity": 10,
+    "valid_until": "2025-09-14T09:10:07.732408"
+  },
+  {
+    "pk": 27,
+    "name": "Pret A Manger",
+    "points": 50,
+    "display_img_url": "https://logo.clearbit.com/pretamanger.com",
+    "quantity": 44,
+    "low_quantity": 10,
+    "valid_until": "2025-09-01T09:10:07.732411"
+  },
+  {
+    "pk": 28,
+    "name": "Cinnabon",
+    "points": 24,
+    "display_img_url": "https://logo.clearbit.com/cinnabon.com",
+    "quantity": 35,
+    "low_quantity": 10,
+    "valid_until": "2025-09-02T09:10:07.732414"
+  },
+  {
+    "pk": 29,
+    "name": "Buffalo Wild Wings",
+    "points": 80,
+    "display_img_url": "https://logo.clearbit.com/buffalowildwings.com",
+    "quantity": 38,
+    "low_quantity": 9,
+    "valid_until": "2025-08-13T09:10:07.732417"
+  },
+  {
+    "pk": 30,
+    "name": "Ben & Jerry's",
+    "points": 100,
+    "display_img_url": "https://logo.clearbit.com/ben&jerry's.com",
+    "quantity": 29,
+    "low_quantity": 7,
+    "valid_until": "2025-06-10T09:10:07.732420"
+  },
+  {
+    "pk": 31,
+    "name": "Einstein Bros. Bagels",
+    "points": 22,
+    "display_img_url": "https://logo.clearbit.com/einsteinbros.bagels.com",
+    "quantity": 13,
+    "low_quantity": 6,
+    "valid_until": "2025-08-21T09:10:07.732423"
+  },
+  {
+    "pk": 32,
+    "name": "Baskin-Robbins",
+    "points": 68,
+    "display_img_url": "https://logo.clearbit.com/baskin-robbins.com",
+    "quantity": 50,
+    "low_quantity": 9,
+    "valid_until": "2025-03-06T09:10:07.732426"
+  },
+  {
+    "pk": 33,
+    "name": "Johnny Rockets",
+    "points": 14,
+    "display_img_url": "https://logo.clearbit.com/johnnyrockets.com",
+    "quantity": 41,
+    "low_quantity": 7,
+    "valid_until": "2025-04-24T09:10:07.732430"
+  },
+  {
+    "pk": 34,
+    "name": "Sbarro",
+    "points": 82,
+    "display_img_url": "https://logo.clearbit.com/sbarro.com",
+    "quantity": 40,
+    "low_quantity": 10,
+    "valid_until": "2025-08-28T09:10:07.732433"
+  },
+  {
+    "pk": 35,
+    "name": "Popeyes",
+    "points": 60,
+    "display_img_url": "https://logo.clearbit.com/popeyes.com",
+    "quantity": 15,
+    "low_quantity": 10,
+    "valid_until": "2025-10-19T09:10:07.732436"
+  },
+  {
+    "pk": 36,
+    "name": "Whataburger",
+    "points": 47,
+    "display_img_url": "https://logo.clearbit.com/whataburger.com",
+    "quantity": 16,
+    "low_quantity": 5,
+    "valid_until": "2025-11-12T09:10:07.732439"
+  },
+  {
+    "pk": 37,
+    "name": "Jack in the Box",
+    "points": 36,
+    "display_img_url": "https://logo.clearbit.com/jackinthebox.com",
+    "quantity": 48,
+    "low_quantity": 10,
+    "valid_until": "2025-10-25T09:10:07.732443"
+  },
+  {
+    "pk": 38,
+    "name": "Del Taco",
+    "points": 95,
+    "display_img_url": "https://logo.clearbit.com/deltaco.com",
+    "quantity": 50,
+    "low_quantity": 9,
+    "valid_until": "2025-05-04T09:10:07.732446"
+  },
+  {
+    "pk": 39,
+    "name": "In-N-Out Burger",
+    "points": 98,
+    "display_img_url": "https://logo.clearbit.com/in-n-outburger.com",
+    "quantity": 40,
+    "low_quantity": 9,
+    "valid_until": "2025-02-19T09:10:07.732449"
+  },
+  {
+    "pk": 40,
+    "name": "Checkers",
+    "points": 17,
+    "display_img_url": "https://logo.clearbit.com/checkers.com",
+    "quantity": 24,
+    "low_quantity": 8,
+    "valid_until": "2025-02-05T09:10:07.732452"
+  },
+  {
+    "pk": 41,
+    "name": "Zaxby's",
+    "points": 30,
+    "display_img_url": "https://logo.clearbit.com/zaxby's.com",
+    "quantity": 34,
+    "low_quantity": 10,
+    "valid_until": "2025-10-30T09:10:07.732455"
+  },
+  {
+    "pk": 42,
+    "name": "Raising Cane's",
+    "points": 65,
+    "display_img_url": "https://logo.clearbit.com/raisingcane's.com",
+    "quantity": 50,
+    "low_quantity": 8,
+    "valid_until": "2025-05-22T09:10:07.732458"
+  },
+  {
+    "pk": 43,
+    "name": "Qdoba",
+    "points": 67,
+    "display_img_url": "https://logo.clearbit.com/qdoba.com",
+    "quantity": 40,
+    "low_quantity": 7,
+    "valid_until": "2025-04-24T09:10:07.732461"
+  },
+  {
+    "pk": 44,
+    "name": "Jersey Mike's",
+    "points": 37,
+    "display_img_url": "https://logo.clearbit.com/jerseymike's.com",
+    "quantity": 23,
+    "low_quantity": 10,
+    "valid_until": "2025-07-12T09:10:07.732464"
+  },
+  {
+    "pk": 45,
+    "name": "Firehouse Subs",
+    "points": 22,
+    "display_img_url": "https://logo.clearbit.com/firehousesubs.com",
+    "quantity": 41,
+    "low_quantity": 5,
+    "valid_until": "2025-10-14T09:10:07.732467"
+  },
+  {
+    "pk": 46,
+    "name": "Boston Market",
+    "points": 21,
+    "display_img_url": "https://logo.clearbit.com/bostonmarket.com",
+    "quantity": 49,
+    "low_quantity": 10,
+    "valid_until": "2025-03-23T09:10:07.732470"
+  },
+  {
+    "pk": 47,
+    "name": "Blimpie",
+    "points": 20,
+    "display_img_url": "https://logo.clearbit.com/blimpie.com",
+    "quantity": 19,
+    "low_quantity": 10,
+    "valid_until": "2025-02-28T09:10:07.732473"
+  },
+  {
+    "pk": 48,
+    "name": "Au Bon Pain",
+    "points": 57,
+    "display_img_url": "https://logo.clearbit.com/aubonpain.com",
+    "quantity": 0,
+    "low_quantity": 6,
+    "valid_until": "2025-04-17T09:10:07.732476"
+  },
+  {
+    "pk": 49,
+    "name": "Bojangles",
+    "points": 41,
+    "display_img_url": "https://logo.clearbit.com/bojangles.com",
+    "quantity": 34,
+    "low_quantity": 10,
+    "valid_until": "2025-03-19T09:10:07.732479"
+  },
+  {
+    "pk": 50,
+    "name": "Church's Chicken",
+    "points": 63,
+    "display_img_url": "https://logo.clearbit.com/church'schicken.com",
+    "quantity": 18,
+    "low_quantity": 5,
+    "valid_until": "2025-06-02T09:10:07.732482"
+  },
+  {
+    "pk": 51,
+    "name": "Wingstop",
+    "points": 62,
+    "display_img_url": "https://logo.clearbit.com/wingstop.com",
+    "quantity": 41,
+    "low_quantity": 10,
+    "valid_until": "2025-11-07T09:10:07.732485"
+  },
+  {
+    "pk": 52,
+    "name": "Nathan's Famous",
+    "points": 23,
+    "display_img_url": "https://logo.clearbit.com/nathan'sfamous.com",
+    "quantity": 39,
+    "low_quantity": 6,
+    "valid_until": "2025-02-26T09:10:07.732488"
+  },
+  {
+    "pk": 53,
+    "name": "Smashburger",
+    "points": 90,
+    "display_img_url": "https://logo.clearbit.com/smashburger.com",
+    "quantity": 18,
+    "low_quantity": 9,
+    "valid_until": "2025-09-18T09:10:07.732492"
+  },
+  {
+    "pk": 54,
+    "name": "Rubio's",
+    "points": 94,
+    "display_img_url": "https://logo.clearbit.com/rubio's.com",
+    "quantity": 18,
+    "low_quantity": 5,
+    "valid_until": "2025-08-04T09:10:07.732495"
+  },
+  {
+    "pk": 55,
+    "name": "Schlotzsky's",
+    "points": 84,
+    "display_img_url": "https://logo.clearbit.com/schlotzsky's.com",
+    "quantity": 35,
+    "low_quantity": 5,
+    "valid_until": "2025-09-24T09:10:07.732498"
+  },
+  {
+    "pk": 56,
+    "name": "Moe's Southwest Grill",
+    "points": 57,
+    "display_img_url": "https://logo.clearbit.com/moe'ssouthwestgrill.com",
+    "quantity": 16,
+    "low_quantity": 8,
+    "valid_until": "2025-02-06T09:10:07.732501"
+  },
+  {
+    "pk": 57,
+    "name": "Culver's",
+    "points": 25,
+    "display_img_url": "https://logo.clearbit.com/culver's.com",
+    "quantity": 32,
+    "low_quantity": 9,
+    "valid_until": "2025-08-10T09:10:07.732504"
+  },
+  {
+    "pk": 58,
+    "name": "Hungry Jack's",
+    "points": 85,
+    "display_img_url": "https://logo.clearbit.com/hungryjack's.com",
+    "quantity": 41,
+    "low_quantity": 5,
+    "valid_until": "2025-04-01T09:10:07.732507"
+  },
+  {
+    "pk": 59,
+    "name": "Auntie Anne's",
+    "points": 54,
+    "display_img_url": "https://logo.clearbit.com/auntieanne's.com",
+    "quantity": 43,
+    "low_quantity": 6,
+    "valid_until": "2025-02-26T09:10:07.732510"
+  },
+  {
+    "pk": 60,
+    "name": "Pretzelmaker",
+    "points": 47,
+    "display_img_url": "https://logo.clearbit.com/pretzelmaker.com",
+    "quantity": 44,
+    "low_quantity": 6,
+    "valid_until": "2025-11-22T09:10:07.732512"
+  },
+  {
+    "pk": 61,
+    "name": "Marble Slab Creamery",
+    "points": 12,
+    "display_img_url": "https://logo.clearbit.com/marbleslabcreamery.com",
+    "quantity": 14,
+    "low_quantity": 7,
+    "valid_until": "2025-02-09T09:10:07.732515"
+  },
+  {
+    "pk": 62,
+    "name": "Freddy's",
+    "points": 20,
+    "display_img_url": "https://logo.clearbit.com/freddy's.com",
+    "quantity": 46,
+    "low_quantity": 10,
+    "valid_until": "2025-11-28T09:10:07.732518"
+  },
+  {
+    "pk": 63,
+    "name": "Cold Stone Creamery",
+    "points": 15,
+    "display_img_url": "https://logo.clearbit.com/coldstonecreamery.com",
+    "quantity": 26,
+    "low_quantity": 5,
+    "valid_until": "2025-04-02T09:10:07.732521"
+  },
+  {
+    "pk": 64,
+    "name": "Dippin' Dots",
+    "points": 35,
+    "display_img_url": "https://logo.clearbit.com/dippin'dots.com",
+    "quantity": 15,
+    "low_quantity": 9,
+    "valid_until": "2025-06-01T09:10:07.732524"
+  },
+  {
+    "pk": 65,
+    "name": "Fuddruckers",
+    "points": 49,
+    "display_img_url": "https://logo.clearbit.com/fuddruckers.com",
+    "quantity": 23,
+    "low_quantity": 5,
+    "valid_until": "2025-05-03T09:10:07.732527"
+  },
+  {
+    "pk": 66,
+    "name": "Portillo's",
+    "points": 99,
+    "display_img_url": "https://logo.clearbit.com/portillo's.com",
+    "quantity": 35,
+    "low_quantity": 8,
+    "valid_until": "2025-05-29T09:10:07.732531"
+  },
+  {
+    "pk": 67,
+    "name": "El Pollo Loco",
+    "points": 72,
+    "display_img_url": "https://logo.clearbit.com/elpolloloco.com",
+    "quantity": 22,
+    "low_quantity": 9,
+    "valid_until": "2025-09-12T09:10:07.732534"
+  },
+  {
+    "pk": 68,
+    "name": "Sweetgreen",
+    "points": 61,
+    "display_img_url": "https://logo.clearbit.com/sweetgreen.com",
+    "quantity": 40,
+    "low_quantity": 6,
+    "valid_until": "2025-07-21T09:10:07.732537"
+  },
+  {
+    "pk": 69,
+    "name": "Zoe's Kitchen",
+    "points": 35,
+    "display_img_url": "https://logo.clearbit.com/zoe'skitchen.com",
+    "quantity": 14,
+    "low_quantity": 9,
+    "valid_until": "2025-06-06T09:10:07.732540"
+  },
+  {
+    "pk": 70,
+    "name": "Earl of Sandwich",
+    "points": 73,
+    "display_img_url": "https://logo.clearbit.com/earlofsandwich.com",
+    "quantity": 13,
+    "low_quantity": 6,
+    "valid_until": "2025-03-24T09:10:07.732543"
+  },
+  {
+    "pk": 71,
+    "name": "Lion's Choice",
+    "points": 19,
+    "display_img_url": "https://logo.clearbit.com/lion'schoice.com",
+    "quantity": 12,
+    "low_quantity": 9,
+    "valid_until": "2025-02-08T09:10:07.732546"
+  },
+  {
+    "pk": 72,
+    "name": "The Halal Guys",
+    "points": 16,
+    "display_img_url": "https://logo.clearbit.com/thehalalguys.com",
+    "quantity": 45,
+    "low_quantity": 7,
+    "valid_until": "2025-11-02T09:10:07.732550"
+  },
+  {
+    "pk": 73,
+    "name": "Pinkberry",
+    "points": 20,
+    "display_img_url": "https://logo.clearbit.com/pinkberry.com",
+    "quantity": 19,
+    "low_quantity": 9,
+    "valid_until": "2025-07-18T09:10:07.732553"
+  },
+  {
+    "pk": 74,
+    "name": "Yogen Fr\u00fcz",
+    "points": 40,
+    "display_img_url": "https://logo.clearbit.com/yogenfr\u00fcz.com",
+    "quantity": 24,
+    "low_quantity": 6,
+    "valid_until": "2025-07-04T09:10:07.732556"
+  },
+  {
+    "pk": 75,
+    "name": "Nando's",
+    "points": 62,
+    "display_img_url": "https://logo.clearbit.com/nando's.com",
+    "quantity": 25,
+    "low_quantity": 6,
+    "valid_until": "2025-05-17T09:10:07.732559"
+  },
+  {
+    "pk": 76,
+    "name": "Jimmy John's",
+    "points": 46,
+    "display_img_url": "https://logo.clearbit.com/jimmyjohn's.com",
+    "quantity": 26,
+    "low_quantity": 9,
+    "valid_until": "2025-04-09T09:10:07.732562"
+  },
+  {
+    "pk": 77,
+    "name": "Habit Burger",
+    "points": 24,
+    "display_img_url": "https://logo.clearbit.com/habitburger.com",
+    "quantity": 17,
+    "low_quantity": 8,
+    "valid_until": "2025-05-26T09:10:07.732565"
+  },
+  {
+    "pk": 78,
+    "name": "Swensen's",
+    "points": 91,
+    "display_img_url": "https://logo.clearbit.com/swensen's.com",
+    "quantity": 25,
+    "low_quantity": 10,
+    "valid_until": "2025-05-28T09:10:07.732568"
+  },
+  {
+    "pk": 79,
+    "name": "TGI Fridays",
+    "points": 63,
+    "display_img_url": "https://logo.clearbit.com/tgifridays.com",
+    "quantity": 44,
+    "low_quantity": 5,
+    "valid_until": "2025-09-03T09:10:07.732571"
+  },
+  {
+    "pk": 80,
+    "name": "Texas Roadhouse",
+    "points": 27,
+    "display_img_url": "https://logo.clearbit.com/texasroadhouse.com",
+    "quantity": 45,
+    "low_quantity": 8,
+    "valid_until": "2025-10-22T09:10:07.732574"
+  },
+  {
+    "pk": 81,
+    "name": "Red Robin",
+    "points": 56,
+    "display_img_url": "https://logo.clearbit.com/redrobin.com",
+    "quantity": 14,
+    "low_quantity": 9,
+    "valid_until": "2025-03-18T09:10:07.732577"
+  },
+  {
+    "pk": 82,
+    "name": "Cheesecake Factory",
+    "points": 49,
+    "display_img_url": "https://logo.clearbit.com/cheesecakefactory.com",
+    "quantity": 21,
+    "low_quantity": 8,
+    "valid_until": "2025-03-18T09:10:07.732580"
+  },
+  {
+    "pk": 83,
+    "name": "Hooters",
+    "points": 54,
+    "display_img_url": "https://logo.clearbit.com/hooters.com",
+    "quantity": 37,
+    "low_quantity": 10,
+    "valid_until": "2025-02-25T09:10:07.732583"
+  },
+  {
+    "pk": 84,
+    "name": "IHOP",
+    "points": 70,
+    "display_img_url": "https://logo.clearbit.com/ihop.com",
+    "quantity": 42,
+    "low_quantity": 8,
+    "valid_until": "2025-07-20T09:10:07.732586"
+  },
+  {
+    "pk": 85,
+    "name": "Perkins",
+    "points": 97,
+    "display_img_url": "https://logo.clearbit.com/perkins.com",
+    "quantity": 35,
+    "low_quantity": 10,
+    "valid_until": "2025-02-21T09:10:07.732589"
+  },
+  {
+    "pk": 86,
+    "name": "Waffle House",
+    "points": 63,
+    "display_img_url": "https://logo.clearbit.com/wafflehouse.com",
+    "quantity": 37,
+    "low_quantity": 10,
+    "valid_until": "2025-04-01T09:10:07.732592"
+  },
+  {
+    "pk": 87,
+    "name": "Village Inn",
+    "points": 26,
+    "display_img_url": "https://logo.clearbit.com/villageinn.com",
+    "quantity": 33,
+    "low_quantity": 7,
+    "valid_until": "2025-09-26T09:10:07.732595"
+  },
+  {
+    "pk": 88,
+    "name": "Denny's",
+    "points": 99,
+    "display_img_url": "https://logo.clearbit.com/denny's.com",
+    "quantity": 27,
+    "low_quantity": 7,
+    "valid_until": "2025-12-19T09:10:07.732598"
+  },
+  {
+    "pk": 89,
+    "name": "P.F. Chang's",
+    "points": 70,
+    "display_img_url": "https://logo.clearbit.com/p.f.chang's.com",
+    "quantity": 46,
+    "low_quantity": 7,
+    "valid_until": "2025-03-05T09:10:07.732601"
+  },
+  {
+    "pk": 90,
+    "name": "Olive Garden",
+    "points": 64,
+    "display_img_url": "https://logo.clearbit.com/olivegarden.com",
+    "quantity": 35,
+    "low_quantity": 9,
+    "valid_until": "2025-09-07T09:10:07.732604"
+  },
+  {
+    "pk": 91,
+    "name": "Carrabba's",
+    "points": 25,
+    "display_img_url": "https://logo.clearbit.com/carrabba's.com",
+    "quantity": 31,
+    "low_quantity": 10,
+    "valid_until": "2025-07-18T09:10:07.732607"
+  },
+  {
+    "pk": 92,
+    "name": "Maggiano's",
+    "points": 62,
+    "display_img_url": "https://logo.clearbit.com/maggiano's.com",
+    "quantity": 21,
+    "low_quantity": 9,
+    "valid_until": "2025-08-23T09:10:07.732610"
+  },
+  {
+    "pk": 93,
+    "name": "Outback Steakhouse",
+    "points": 56,
+    "display_img_url": "https://logo.clearbit.com/outbacksteakhouse.com",
+    "quantity": 28,
+    "low_quantity": 10,
+    "valid_until": "2025-09-15T09:10:07.732613"
+  },
+  {
+    "pk": 94,
+    "name": "LongHorn Steakhouse",
+    "points": 29,
+    "display_img_url": "https://logo.clearbit.com/longhornsteakhouse.com",
+    "quantity": 27,
+    "low_quantity": 6,
+    "valid_until": "2025-04-15T09:10:07.732618"
+  },
+  {
+    "pk": 95,
+    "name": "Cracker Barrel",
+    "points": 72,
+    "display_img_url": "https://logo.clearbit.com/crackerbarrel.com",
+    "quantity": 40,
+    "low_quantity": 9,
+    "valid_until": "2025-07-25T09:10:07.732623"
+  },
+  {
+    "pk": 96,
+    "name": "Applebee's",
+    "points": 73,
+    "display_img_url": "https://logo.clearbit.com/applebee's.com",
+    "quantity": 32,
+    "low_quantity": 10,
+    "valid_until": "2025-08-18T09:10:07.732627"
+  },
+  {
+    "pk": 97,
+    "name": "Chili's",
+    "points": 29,
+    "display_img_url": "https://logo.clearbit.com/chili's.com",
+    "quantity": 27,
+    "low_quantity": 8,
+    "valid_until": "2025-03-08T09:10:07.732632"
+  },
+  {
+    "pk": 98,
+    "name": "Ruby Tuesday",
+    "points": 82,
+    "display_img_url": "https://logo.clearbit.com/rubytuesday.com",
+    "quantity": 13,
+    "low_quantity": 8,
+    "valid_until": "2025-02-10T09:10:07.732638"
+  },
+  {
+    "pk": 99,
+    "name": "Red Lobster",
+    "points": 40,
+    "display_img_url": "https://logo.clearbit.com/redlobster.com",
+    "quantity": 34,
+    "low_quantity": 6,
+    "valid_until": "2025-09-30T09:10:07.732642"
+  },
+  {
+    "pk": 100,
+    "name": "Bonefish Grill",
+    "points": 45,
+    "display_img_url": "https://logo.clearbit.com/bonefishgrill.com",
+    "quantity": 43,
+    "low_quantity": 6,
+    "valid_until": "2025-12-03T09:10:07.732645"
+  },
+  {
+    "pk": 101,
+    "name": "Joe's Crab Shack",
+    "points": 73,
+    "display_img_url": "https://logo.clearbit.com/joe'scrabshack.com",
+    "quantity": 44,
+    "low_quantity": 9,
+    "valid_until": "2025-09-23T09:10:07.732648"
+  },
+  {
+    "pk": 102,
+    "name": "Rainforest Cafe",
+    "points": 32,
+    "display_img_url": "https://logo.clearbit.com/rainforestcafe.com",
+    "quantity": 36,
+    "low_quantity": 8,
+    "valid_until": "2025-09-20T09:10:07.732651"
+  },
+  {
+    "pk": 103,
+    "name": "Yard House",
+    "points": 73,
+    "display_img_url": "https://logo.clearbit.com/yardhouse.com",
+    "quantity": 28,
+    "low_quantity": 6,
+    "valid_until": "2025-08-27T09:10:07.732654"
+  },
+  {
+    "pk": 104,
+    "name": "Seasons 52",
+    "points": 16,
+    "display_img_url": "https://logo.clearbit.com/seasons52.com",
+    "quantity": 16,
+    "low_quantity": 8,
+    "valid_until": "2025-05-04T09:10:07.732657"
+  },
+  {
+    "pk": 105,
+    "name": "The Capital Grille",
+    "points": 89,
+    "display_img_url": "https://logo.clearbit.com/thecapitalgrille.com",
+    "quantity": 15,
+    "low_quantity": 8,
+    "valid_until": "2025-09-15T09:10:07.732660"
+  }
+]

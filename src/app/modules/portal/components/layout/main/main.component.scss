@@ -1,0 +1,127 @@
+.main-wrapper {
+    display: grid;
+    grid-template-areas: 
+    "side-filter main-section";
+    grid-template-columns: 0.7fr 2.3fr;
+}
+
+.main-section {
+    grid-area: main-section; 
+    max-height: 52vh;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.search-container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-badge {
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+  
+.filter-badge .close {
+    cursor: pointer;
+}
+
+.category-item {
+    cursor: pointer;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.category-item:hover {
+    background-color: #f8f9fa;
+}
+
+.sort-pagination-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.sort-btn {
+    height: 39px;
+}
+
+
+/// 
+/// Filter Panel
+/// 
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.sort-options {
+    margin-bottom: 1em;
+
+    .btn-wrapper {
+        display: flex;
+        gap: 1.5em;
+    }
+}
+
+/* Overlay to prevent clicks on background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 999; /* Higher than everything */
+}
+/* Filter Panel Styling */
+.filter-panel {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 350px;
+    height: 100vh;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    z-index: 1000; /* Above the overlay */
+}
+  
+.filter-panel.open {
+    right: 0;
+}
+  
+.btn-selected {
+    background: red;
+    color: white;
+}
+  
+.btn-apply {
+    width: 100%;
+    background: #a52a2a;
+    color: white;
+    margin-top: 74vh;
+}

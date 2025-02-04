@@ -1,0 +1,27 @@
+<div class="card mb-4 wrapper">
+
+    <div class="image-wrapper">
+        <img src="{{reward.display_img_url || '../../../../../assets/images/image-break.png'}}" 
+            alt="{{reward.name}}" 
+            class="card-img-top"
+            onerror="this.onerror=null; this.src='../../../../../assets/images/image-break.png';">
+
+        <span class="badge badge-pill badge-light high-demand-wrapper" 
+            *ngIf="reward.quantity != null && reward.quantity != 0 && reward.quantity <= reward.low_quantity">
+            <div class="yellow">ON High Demand</div>
+            <div class="gray">(Only {{reward.quantity}} rewards left)</div>
+        </span>
+
+        <span class="badge badge-pill badge-light out-of-demand-wrapper" *ngIf="reward.quantity == 0">
+            <div class="gray">Out of Stock</div>
+        </span>
+    </div>
+    
+    <div class="card-body">
+        <p class="card-title text-center">{{reward.name}}</p>
+        <p class="card-text text-center">{{reward.points}} Points</p>
+
+        <hr/>
+        <p class="card-text text-center">Valid Until - {{reward.valid_until | date: 'dd-MM-yyyy'}}</p>
+    </div>
+</div>
